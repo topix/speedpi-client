@@ -1,0 +1,6 @@
+#
+# MARK FOR IF
+## Run Speedtest.net
+*/10 * * * * root bash /opt/speedpi/run_speedtest.sh
+## Run Pingtest
+*/1 * * * * root cd /opt/speedpi; /usr/bin/python3 /opt/speedpi/pinger.py
