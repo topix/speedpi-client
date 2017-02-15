@@ -1,1 +1,2 @@
-speedpi-client
+SpeedPi-Client
+==============
